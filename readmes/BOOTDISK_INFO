@@ -1,0 +1,15 @@
+
+INSTALLATION DISKS DIRECTORY
+
+This is the directory under which can be found the disks needed to install
+Slackware Linux 1.2.0. You will need at least one bootkernel disk, and one
+root-install disk. Look in the subdirectory that corresponds with the size
+of your boot media (1.2 meg or 1.44 meg). The README files in the "bootdisks" 
+and "rootdisks" sub-directories will give you more detailed information to help
+you choose which disks are best suited to your hardware.
+
+---
+Good luck!
+
+Patrick Volkerding
+volkerdi@ftp.cdrom.com

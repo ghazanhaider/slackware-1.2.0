@@ -1,0 +1,44 @@
+umsfix:    Fixes for some of the problems introduced by using UMSDOS as the
+umsfix:    root filesystem. Makes the root partition mount read-write.
+umsfix:
+umsfix:
+umsfix:
+umsfix:
+umsfix:
+umsfix:
+umsfix:
+umsfix:
+umsfix:
+ums_scsi:  A version 1.0 Linux kernel image with UMSDOS support.
+ums_scsi:
+ums_scsi:  This kernel image is compiled with drivers for all the SCSI and
+ums_scsi:  network device supported by Linux.
+ums_scsi:
+ums_scsi:  You must install at least one kernel image in order to boot your
+ums_scsi:  system.
+ums_scsi:
+ums_scsi:
+ums_scsi:
+ums_scsi:
+ums_ide:   A version 1.0 Linux kernel image with UMSDOS support.
+ums_ide:
+ums_ide:   This kernel does not contain SCSI drivers, but does have full
+ums_ide:   network support.
+ums_ide:
+ums_ide:   You must install at least one kernel image in order to boot your 
+ums_ide:   system.
+ums_ide:
+ums_ide:
+ums_ide:
+ums_ide:
+umsprogs: Various utilities needed by the UMSDOS filesystem.
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 

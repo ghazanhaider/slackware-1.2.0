@@ -1,0 +1,67 @@
+CONTENTS: nn tin trn ppp inn_pkg cnews
+inn_pkg:  INN 1.4
+inn.pkg:
+inn.pkg:  Rich Salz's InterNetNews news transport system. The Linux INN package
+inn.pkg:  was prepared by Andreas Klemm using the Newspak instructions by 
+inn.pkg:  Vince Skahan and Arjan de Vet.
+inn.pkg:
+inn.pkg:
+inn.pkg:
+inn.pkg:
+inn.pkg:
+inn.pkg:
+nn:       The 'nn' news reader. (v. 6.4.18)
+nn:
+nn:
+nn:
+nn:
+nn:
+nn:
+nn:
+nn:
+nn:
+nn:
+tin:      The 'tin' news reader. (1.2pl2)
+tin:
+tin:
+tin:
+tin:
+tin:
+tin:
+tin:
+tin:
+tin:
+tin:
+trn:      A threaded news reader. (v. 3.4.1)
+trn:
+trn:      Compiled to use Overviews or mthreads, and to read news remotely via
+trn:      NNTP. Be sure to set NNTPSERVER in your /etc/profile or 
+trn:      /etc/csh.login. If you need a different trn configuration, you'll have
+trn:      to recompile. This shouldn't scare anyone too badly - trn compiles 
+trn:      under Linux right out of the box. The latest versions can be found on
+trn:      ftp.uu.net under /networking/news/readers/trn. This version can be
+trn:      found on ftp.cdrom.com in /pub/linux/slackware_source/n/trn. 
+trn:
+trn:
+ppp:      ALPHA PPP for Linux, version 0.1.4/0.1.5
+ppp:
+ppp:      linux-ppp-0.1.5, the source code for the kernel PPP driver.
+ppp:      pppd-0.1.4, the PPP daemon, source+binary.
+ppp:      chat v. 1.0, a chat program for PPP connections.
+ppp: 
+ppp:      Michael Callahan's version of PPP for Linux - provides IP connections
+ppp:      over a serial line, similar to SLIP. Includes Karl Fox's chat program
+ppp:      which negotiates the PPP connection like DIP does when using the SLIP
+ppp:      protocol.
+ppp:
+cnews:    Controls the spooling and transmission of Usenet news. 
+cnews:
+cnews:
+cnews:
+cnews:
+cnews:
+cnews:
+cnews:
+cnews:
+cnews:
+cnews:

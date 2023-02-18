@@ -1,0 +1,23 @@
+CONTENTS: iv_bin iv_man
+iv_bin:   Various InterViews 3.1 binaries:
+iv_bin:
+iv_bin:   Contains these programs:
+iv_bin:    alert cpu dclock idemo ifc logo mailbox remind
+iv_bin:
+iv_bin:
+iv_bin:
+iv_bin:
+iv_bin:
+iv_bin:
+iv_bin:
+iv_man:   Manual pages for the InterViews 3.1 library functions.
+iv_man:
+iv_man:   Man pages for doc, idraw, and the other InterViews 3.1 programs are
+iv_man:   included in the packages containing those binaries. This package only
+iv_man:   contains the man pages useful for InterViews programming.
+iv_man:
+iv_man:   Add /usr/local/InterViews/man to your manpath to enable these
+iv_man:   man pages. This will either be in the configuration file 
+iv_man:   manpath.config (in /usr/lib), or your MANPATH environment variable.
+iv_man:
+iv_man:

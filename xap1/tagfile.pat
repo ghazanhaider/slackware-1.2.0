@@ -1,0 +1,15 @@
+gchess: SKP
+xfm12: SKP
+ghstview: ADD
+x3270: SKP
+xgames: ADD
+xspread: SKP
+xxgdb: SKP
+gs_x11: ADD
+libgr13: ADD
+seyon: ADD
+vgaset: ADD
+workman: ADD
+xfileman: ADD
+xv300: ADD
+xgrabsc: ADD

@@ -1,0 +1,28 @@
+
+These are bootkernels that contain the alpha in2000 SCSI driver. Once you've 
+installed, you'll have to do one of these things:
+
+1. Use the bootkernel to boot your system (mount root=/dev/sda1, or whatever)
+
+2. Steal the kernel off the bootkernel disk and use it on your own system.
+   You can do this by mounting it (mount /dev/fd0 /mnt) and then copying the
+   kernel image over your own. You'll want to make it mount your root partition
+   as read-only (rdev -R /vmlinuz 1), and then reinstall lilo if you're using
+   that, or make a new bootdisk if you're not. If you're not sure how to do 
+   this, just start 'setup' on your system and choose the menu option to 
+   reconfigure your machine.
+
+3. The best (but trickest) option is to compile a custom kernel for your
+   machine. Apply the patches in the in2000.tar.gz file to your kernel source,
+   rebuild the kernel and install it.
+
+There are two bootkernels in this directory, one for 3.5" 1.44 MB floppy
+drives (in2K_144.gz) and one for 5.25" 1.2 MB floppy drives (in2K_12.gz).
+These need to be decompressed with gzip before you write them out to floppy.
+See the instructions in the above directory.
+
+---
+
+Good luck! :^)
+
+Pat

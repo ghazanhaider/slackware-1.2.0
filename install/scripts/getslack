@@ -1,0 +1,102 @@
+#!/bin/sh
+#  DISCLAIMER: NO WARRANTY, NO SUPPORT, I DIDN'T WRITE THIS :^)
+#  (I've never even seen it)
+
+#  Retrives entire Slackware distribution from ftp.cdrom.com (but please
+#  use the closest site you can)
+#  change the next three lines to reflect your use along with the variable
+#  "mytmp" in the companion script.
+
+# expect, AND IGNORE, lots of 'no such file or directory' warnings when
+# you run this.
+
+mytmp=/a/volkerdi/testget
+me=volkerdi@ftp.cdrom.com
+
+slackpath=/pub/linux/slackware
+
+echo "Making Slackware subdirectories in $mytmp..."
+mkdir -p $mytmp
+mkdir $mytmp/readmes
+mkdir $mytmp/a1
+mkdir $mytmp/a2
+mkdir $mytmp/a3
+mkdir $mytmp/ap1
+mkdir $mytmp/ap2
+mkdir $mytmp/ap3
+mkdir $mytmp/ap4
+mkdir $mytmp/install
+mkdir $mytmp/install/scripts
+mkdir $mytmp/install/1_2meg
+mkdir $mytmp/install/1_44meg
+mkdir $mytmp/install/umsdos
+mkdir $mytmp/install/tape
+mkdir $mytmp/install/kernel_info
+mkdir $mytmp/d1
+mkdir $mytmp/d2
+mkdir $mytmp/d3
+mkdir $mytmp/d4
+mkdir $mytmp/d5
+mkdir $mytmp/d6
+mkdir $mytmp/e1
+mkdir $mytmp/e2
+mkdir $mytmp/e3
+mkdir $mytmp/e4
+mkdir $mytmp/e5
+mkdir $mytmp/f1
+mkdir $mytmp/i1
+mkdir $mytmp/i2
+mkdir $mytmp/i3
+mkdir $mytmp/iv1
+mkdir $mytmp/iv2
+mkdir $mytmp/iv3
+mkdir $mytmp/iv4
+mkdir $mytmp/n1
+mkdir $mytmp/n2
+mkdir $mytmp/n3
+mkdir $mytmp/oop1
+mkdir $mytmp/t1
+mkdir $mytmp/t2
+mkdir $mytmp/t3
+mkdir $mytmp/t4
+mkdir $mytmp/t5
+mkdir $mytmp/tcl1
+mkdir $mytmp/tcl2
+mkdir $mytmp/u1
+mkdir $mytmp/u2
+mkdir $mytmp/x1
+mkdir $mytmp/x2
+mkdir $mytmp/x3
+mkdir $mytmp/x4
+mkdir $mytmp/x5
+mkdir $mytmp/x6
+mkdir $mytmp/x7
+mkdir $mytmp/x8
+mkdir $mytmp/xap1
+mkdir $mytmp/xap2
+mkdir $mytmp/xd1
+mkdir $mytmp/xd2
+mkdir $mytmp/xd3
+mkdir $mytmp/xv1
+mkdir $mytmp/xv2
+mkdir $mytmp/y1
+
+ftp -n -v ftp.cdrom.com <<EOF
+user anonymous $me
+binary
+hash
+prompt
+
+cd $slackpath/install
+lcd $mytmp/install
+mget *
+cd $slackpath
+lcd $mytmp
+mget *
+
+bye
+
+EOF
+
+echo
+echo "Slackware retrieval complete."

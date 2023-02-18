@@ -1,0 +1,5 @@
+kernel: REC
+idekern: OPT
+scsikern: OPT
+cdkern: OPT
+ftape: OPT

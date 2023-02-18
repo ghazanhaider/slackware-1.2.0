@@ -1,0 +1,12 @@
+CONTENTS: iv_libs
+iv_libs:  Static libraries, config files, and include files for compiling
+iv_libs:  InterViews 3.1 programs.
+iv_libs:
+iv_libs:  This package is not needed to run the InterViews binaries that come
+iv_libs:  with the IV series (such as doc or idraw).
+iv_libs:
+iv_libs:
+iv_libs:
+iv_libs:
+iv_libs:
+iv_libs:

@@ -1,0 +1,45 @@
+CONTENTS: idekern scsikern cdkern ftape
+idekern:  Linux kernel version 1.1.8, without SCSI support.
+idekern:  
+idekern:  A Linux kernel for computers that do not need SCSI support. If you 
+idekern:  don't have SCSI, the advantage of using the idekern kernel is that 
+idekern:  your machine will boot faster with a leaner kernel. See the file
+idekern:  'idekern.log' for an exact list of included drivers.
+idekern:
+idekern:
+idekern:
+idekern:
+idekern:
+scsikern: Linux kernel version 1.1.8, with SCSI + IDE support. 
+scsikern:
+scsikern: This is a Linux kernel with full support for SCSI devices such as hard
+scsikern: drives, tape drives, and CD-ROM drives. See the file 'scsikern.log' 
+scsikern: for an exact list of included drivers.
+scsikern:
+scsikern:
+scsikern:
+scsikern:
+scsikern:
+scsikern:
+cdkern:   Linux kernel version 1.1.8, with IDE+non-SCSI CD-ROM support.
+cdkern:
+cdkern:   This is a Linux kernel with support for IDE drives and as well as i
+cdkern:   non-SCSI CDROM drives from Sony, Mitsumi, and Panasonic (Soundblaster
+cdkern:   CD). See the file 'cdkern.log' for exact driver information.
+cdkern:
+cdkern:
+cdkern:
+cdkern:
+cdkern:
+cdkern:
+ftape:    ftape 0.9.9d, and 0.9.10
+ftape:
+ftape:    Bas Laarhoven's FTAPE modules, compiled to work with Linux 1.1.8.
+ftape:
+ftape:    The FTAPE driver allows you to use a QIC-40 or QIC-80 floppy tape
+ftape:    drive with Linux.
+ftape:
+ftape:
+ftape:
+ftape:
+ftape:

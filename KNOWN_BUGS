@@ -1,0 +1,19 @@
+
+Sat Mar 26 15:48:35 PST 1994
+
+Support for xiafs was inadvertantly left out of most of the kernels in the
+1.2.0 release. Best to stick with ext2 until I can get this fixed (actually,
+best to stick to ext2, period ;^).
+
+It may be a while until I can recompile all those kernels.
+
+-----------------
+
+GNU su was made to work by adding:
+
+   pw = getpwnam (new_user);
+
+at line 285 of su.c in shellutils-1.9.4.
+
+Thanks to Jeff Jennings for providing a fix.
+

@@ -1,0 +1,31 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING PACKAGES FOR SERIES Q (ALPHA KERNEL IMAGES/SOURCE)" \
+       --checklist "Please select the packages you wish to install \
+from series Q. Use the UP/DOWN keys to scroll through the list, and the SPACE \
+key to select the packages you wish to install. Select a maximum of one kernel \
+image, and make sure to reinstall LILO before rebooting (if you use it). \
+Press ENTER when you are done. NOTE: \
+For an exact listing of the drivers included with each image, see the logfiles \
+on each disk. (idekern.log, scsikern.log, etc.)" \
+18 70 5 \
+"kernel" "Linux kernel source v.1.1.8" "on" \
+"idekern" "Kernel image with IDE support v.1.1.8" "off" \
+"scsikern" "Kernel image with IDE/SCSI support, v. 1.1.8" "off" \
+"cdkern" "v.1.1.8 image with IDE/Mitsumi/Sony/SBCD" "off" \
+"ftape" "Floppy tape modules for the 1.1.8 kernel" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in kernel idekern scsikern cdkern ftape ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

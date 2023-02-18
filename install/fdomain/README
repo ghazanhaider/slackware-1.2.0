@@ -1,0 +1,23 @@
+These are bootkernels with full scsi support, including the new Future Domain
+BIOS version 3.4. From the fdomain.c source:
+
+ The following BIOS versions are supported: 2.0, 3.0, 3.2, and 3.4.
+ The following chips are supported: TMC-1800, TMC-18C50.
+ Reports suggest that the driver will also work with the TMC-18C30 chip.
+ The support for the version 3.4 BIOS is new, as of March 1994, and may not
+ be stable.
+
+These are all the included SCSI drivers:
+
+Adaptec AHA152X, Adaptec AHA1542, Adaptec AHA1740, Generic NCR5380 SCSI,
+PAS16 SCSI, Seagate ST-02 and Future Domain TMC-8xx SCSI support,
+Future Domain 16xx SCSI, UltraStor SCSI, 7000FASST SCSI
+
+You may need to install kernel images from the Q (Alpha 1.1.x series) to boot
+your system after installing with these bootkernels. 
+
+These kernels (and this directory) will only last as long as it takes to 
+bring all the bootdisks up to this kernel level. If we're lucky, that won't
+be all that long. :^)
+
+--- Pat

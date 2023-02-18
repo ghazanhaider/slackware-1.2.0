@@ -1,0 +1,12 @@
+CONTENTS: ivdevbin
+ivdevbin: Programs used to develop and compile InterViews applications.
+ivdevbin:
+ivdevbin: Check out the ibuild interface builder - it makes X application 
+ivdevbin: design really easy.
+ivdevbin:
+ivdevbin: These are the utilities included in this package:
+ivdevbin:  ibmkmf ibuild iclass ivmkmf
+ivdevbin:
+ivdevbin:
+ivdevbin:
+ivdevbin:

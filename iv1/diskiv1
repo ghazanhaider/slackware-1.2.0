@@ -1,0 +1,45 @@
+CONTENTS: doc idraw iv_docs iv_misc
+doc:      The application 'doc' from the InterViews 3.1 package.
+doc:
+doc:      'doc' is a WYSIWYG editor for X that stores files in a format similar
+doc:      to TeX.
+doc:
+doc:
+doc:
+doc:
+doc:
+doc:
+doc:
+idraw:    The 'idraw' application from the InterViews 3.1 package.
+idraw:
+idraw:    'idraw' is a graphics editor that stores files in a format
+idraw:    similar to PostScript.
+idraw:
+idraw:
+idraw:
+idraw:
+idraw:
+idraw:
+idraw:
+iv_docs:  Postscript documentation files for InterViews 3.1.
+iv_docs:  
+iv_docs:  Adds these files to /usr/local/InterViews/man:
+iv_docs:
+iv_docs:  commands.PS.gz
+iv_docs:  libDispatch.PS.gz
+iv_docs:  libIV-look.PS.gz
+iv_docs:  libUnidraw.PS.gz
+iv_docs:  refman.PS.gz
+iv_docs:
+iv_docs:
+iv_misc:  Miscellaneous files for InterViews 3.1, including style sheets and
+iv_misc:  sample files for 'doc' and 'idraw'.
+iv_misc:
+iv_misc:
+iv_misc:
+iv_misc:
+iv_misc:
+iv_misc:
+iv_misc:
+iv_misc:
+iv_misc:

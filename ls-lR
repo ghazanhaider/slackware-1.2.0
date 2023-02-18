@@ -1,0 +1,809 @@
+total 500
+-rw-r--r--    1 volkerdi    16010 Apr 22 01:01 00index.txt
+-rw-rw-r--    1 volkerdi    20286 Apr 22 16:40 CHECKSUMS
+-rw-r--r--    1 volkerdi    38548 Apr 22 16:38 FILE_LIST
+-rw-r--r--    1 volkerdi    50786 Mar 24 22:53 Installation-HOWTO
+-rw-r--r--    1 volkerdi      452 Mar 26 15:49 KNOWN_BUGS
+-rw-r--r--    1 volkerdi     4171 Mar 19 23:14 README.1.2.0
+-rw-r--r--    1 volkerdi     1418 Mar 19 23:14 README_5_25_install
+-rw-r--r--    1 volkerdi    33070 Apr 22 16:36 README_ChangeLog
+-rw-r--r--    1 volkerdi     3328 Mar 19 23:14 README_INSTALL
+-rw-r--r--    1 volkerdi      210 Mar 19 23:14 README_JUNK_WARNING
+-rw-r--r--    1 volkerdi     3364 Apr 22 11:46 README_MIRROR_LIST
+-rw-r--r--    1 volkerdi     9269 Mar 19 23:13 SLACKWARE_FAQ
+-rw-r--r--    1 volkerdi     6041 Apr  3 11:21 UPGRADE-HOWTO
+drwxrwxr-x    2 volkerdi      512 Mar 30 02:56 a1
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:08 a2
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:01 a3
+drwxrwxr-x    2 volkerdi      512 Mar 30 02:39 ap1
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:09 ap2
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:10 ap3
+drwxrwxr-x    2 volkerdi      512 Apr 15 16:39 ap4
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:12 d1
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:14 d2
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:16 d3
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:19 d4
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:17 d5
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:21 d6
+drwxrwxr-x    5 volkerdi      512 Apr 11 01:02 downgrad
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:22 e1
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:24 e2
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:23 e3
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:27 e4
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:26 e5
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:28 f1
+drwxr-xr-x    2 volkerdi      512 Apr 22 01:01 i1
+drwxr-xr-x    2 volkerdi      512 Apr 22 01:01 i2
+drwxrwxr-x   10 volkerdi      512 Apr 19 18:51 install
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:30 iv1
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:31 iv2
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:33 iv3
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:32 iv4
+-rw-r--r--    1 volkerdi        0 Apr 22 16:40 ls-lR
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:03 n1
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:34 n2
+drwxrwxr-x    2 volkerdi      512 Mar 30 02:38 n3
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:36 oop1
+drwxr-xr-x    2 volkerdi      512 Apr 22 16:37 q1
+drwxr-xr-x    2 volkerdi      512 Apr 22 16:37 q2
+drwxrwxr-x    2 volkerdi      512 Mar 31 14:54 readmes
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:35 t1
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:39 t2
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:37 t3
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:40 t4
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:42 t5
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:41 tcl1
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:43 tcl2
+drwxrwxr-x    2 volkerdi      512 Apr  3 01:01 u1
+drwxrwxr-x    2 volkerdi      512 Apr  3 01:01 u2
+-rw-r--r--    1 volkerdi      250 Mar 19 23:19 u_README
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:45 x1
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:46 x2
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:49 x3
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:48 x4
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:53 x5
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:51 x6
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:05 x7
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:56 x8
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:54 xap1
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:57 xap2
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:06 xd1
+drwxrwxr-x    2 volkerdi      512 Mar 30 02:59 xd2
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:00 xd3
+drwxrwxr-x    2 volkerdi      512 Mar 30 03:58 xv1
+drwxrwxr-x    2 volkerdi      512 Mar 30 02:57 xv2
+drwxrwxr-x    2 volkerdi      512 Mar 30 04:00 y1
+
+./a1:
+total 2402
+-rw-r--r--    1 volkerdi      416 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi   240255 Apr 21 20:06 base.tgz
+-rw-r--r--    1 volkerdi     8469 Apr  2 21:55 devs.tgz
+-rw-r--r--    1 volkerdi     3743 Apr 21 20:06 diska1
+-rw-r--r--    1 volkerdi    55958 Apr 21 20:06 etc.tgz
+-rw-r--r--    1 volkerdi    81321 Apr 22 16:37 hdsetup.tgz
+-rw-r--r--    1 volkerdi     3241 Apr 15 16:39 idekern.log
+-rw-r--r--    1 volkerdi   318376 Apr 15 16:39 idekern.tgz
+-rw-r--r--    1 volkerdi    58596 Apr 15 16:39 lilo.tgz
+-rw-r--r--    1 volkerdi     2785 Mar 19 23:13 maketag
+-rw-r--r--    1 volkerdi     4094 Apr 15 16:39 scsikern.log
+-rw-r--r--    1 volkerdi   380132 Apr 15 16:39 scsikern.tgz
+-rw-r--r--    1 volkerdi    25848 Apr 21 20:06 sysvinit.tgz
+-rw-r--r--    1 volkerdi     2019 Apr 15 16:39 tagfile
+-rw-r--r--    1 volkerdi     2019 Apr 15 16:39 tagfile.org
+-rw-r--r--    1 volkerdi      370 Mar 19 23:13 tagfile.pat
+
+./a2:
+total 2360
+-rw-r--r--    1 volkerdi      260 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi   530868 Apr  2 21:54 bin.tgz
+-rw-r--r--    1 volkerdi    19737 Mar 19 23:13 bootutls.tgz
+-rw-r--r--    1 volkerdi     2674 Apr 21 20:06 diska2
+-rw-r--r--    1 volkerdi    38476 Apr 21 20:06 getty.tgz
+-rw-r--r--    1 volkerdi    39146 Mar 19 23:13 gzip.tgz
+-rw-r--r--    1 volkerdi    57863 Mar 19 23:13 ldso.tgz
+-rw-r--r--    1 volkerdi    46449 Apr 22 16:37 ps.tgz
+-rw-r--r--    1 volkerdi   132352 Mar 19 23:13 shlibs.tgz
+-rw-r--r--    1 volkerdi   301508 Apr 21 20:06 util.tgz
+
+./a3:
+total 2428
+-rw-r--r--    1 volkerdi      520 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi   221320 Mar 19 23:13 comms.tgz
+-rw-r--r--    1 volkerdi    28408 Mar 19 23:13 cpio.tgz
+-rw-r--r--    1 volkerdi    41057 Mar 19 23:13 diff.tgz
+-rw-r--r--    1 volkerdi     5003 Apr 21 20:06 diska3
+-rw-r--r--    1 volkerdi    55258 Apr 15 16:39 e2fsbn.tgz
+-rw-r--r--    1 volkerdi    43848 Apr  2 21:54 find.tgz
+-rw-r--r--    1 volkerdi    31227 Mar 19 23:13 grep.tgz
+-rw-r--r--    1 volkerdi      154 Mar 19 23:13 install.end
+-rw-r--r--    1 volkerdi   108293 Mar 19 23:13 keytbls.tgz
+-rw-r--r--    1 volkerdi    65825 Mar 19 23:13 ksh.tgz
+-rw-r--r--    1 volkerdi    51686 Apr 21 20:06 lpr.tgz
+-rw-r--r--    1 volkerdi    10009 Mar 19 23:13 select.tgz
+-rw-r--r--    1 volkerdi    82714 Mar 24 11:16 shellutl.tgz
+-rw-r--r--    1 volkerdi    43750 Apr 21 20:06 shlbsvga.tgz
+-rw-r--r--    1 volkerdi    23470 Mar 19 23:13 syslogd.tgz
+-rw-r--r--    1 volkerdi    59705 Mar 19 23:13 tar.tgz
+-rw-r--r--    1 volkerdi   148476 Mar 19 23:13 tcsh.tgz
+-rw-r--r--    1 volkerdi   130544 Mar 19 23:13 textutl.tgz
+-rw-r--r--    1 volkerdi    29921 Mar 19 23:13 zoneinfo.tgz
+
+./ap1:
+total 2744
+-rw-r--r--    1 volkerdi      338 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1983 Mar 19 23:13 diskap1
+-rw-r--r--    1 volkerdi   374889 Mar 19 23:13 english.tgz
+-rw-r--r--    1 volkerdi   240344 Mar 19 23:13 ispell.tgz
+-rw-r--r--    1 volkerdi   126731 Mar 19 23:13 jove.tgz
+-rw-r--r--    1 volkerdi     2070 Apr 15 16:39 maketag
+-rw-r--r--    1 volkerdi   403739 Mar 19 23:13 man.tgz
+-rw-r--r--    1 volkerdi    44398 Mar 19 23:13 manpgs.tgz
+-rw-r--r--    1 volkerdi     1850 Apr 15 16:39 tagfile
+-rw-r--r--    1 volkerdi     1850 Apr 15 16:39 tagfile.org
+-rw-r--r--    1 volkerdi      239 Apr 15 16:39 tagfile.pat
+-rw-r--r--    1 volkerdi    54391 Apr 21 20:06 termbin.tgz
+-rw-r--r--    1 volkerdi    97127 Apr 21 20:06 termsrc.tgz
+
+./ap2:
+total 2142
+-rw-r--r--    1 volkerdi      130 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1162 Apr 21 20:06 diskap2
+-rw-r--r--    1 volkerdi   488151 Mar 19 23:13 ghostscr.tgz
+-rw-r--r--    1 volkerdi   497301 Mar 19 23:13 gsfonts1.tgz
+-rw-r--r--    1 volkerdi    85284 Mar 19 23:13 joe.tgz
+
+./ap3:
+total 2356
+-rw-r--r--    1 volkerdi       78 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      183 Apr 21 20:06 diskap3
+-rw-r--r--    1 volkerdi  1195317 Mar 19 23:13 gsfonts2.tgz
+
+./ap4:
+total 2314
+-rw-r--r--    1 volkerdi      338 Apr 17 01:01 00index.txt
+-rw-r--r--    1 volkerdi    35757 Mar 19 23:13 bc.tgz
+-rw-r--r--    1 volkerdi     3356 Apr 15 16:39 diskap4
+-rw-r--r--    1 volkerdi    84771 Apr 15 16:39 ftape.tgz
+-rw-r--r--    1 volkerdi     4180 Mar 19 23:13 gonzo.tgz
+-rw-r--r--    1 volkerdi     2920 Mar 19 23:13 gp9600.tgz
+-rw-r--r--    1 volkerdi   644365 Mar 19 23:14 groff.tgz
+-rw-r--r--    1 volkerdi       17 Mar 19 23:14 install.end
+-rw-r--r--    1 volkerdi    11608 Mar 28 15:53 mt_st.tgz
+-rw-r--r--    1 volkerdi   109448 Mar 28 23:19 quota.tgz
+-rw-r--r--    1 volkerdi    87569 Mar 19 23:14 sc.tgz
+-rw-r--r--    1 volkerdi   154441 Apr 15 16:39 vim.tgz
+-rw-r--r--    1 volkerdi     7003 Mar 19 23:14 workbone.tgz
+
+./d1:
+total 2372
+-rw-r--r--    1 volkerdi      208 Apr 16 01:01 00index.txt
+-rw-r--r--    1 volkerdi      372 Mar 19 23:14 diskd1
+-rw-r--r--    1 volkerdi   566825 Mar 19 23:14 gcc.tgz
+-rw-r--r--    1 volkerdi   608120 Mar 19 23:14 gxx.tgz
+-rw-r--r--    1 volkerdi     2111 Apr 15 16:39 maketag
+-rw-r--r--    1 volkerdi     1890 Apr 15 16:39 tagfile
+-rw-r--r--    1 volkerdi     1890 Apr 15 16:39 tagfile.org
+-rw-r--r--    1 volkerdi      257 Mar 19 23:14 tagfile.pat
+
+./d2:
+total 2772
+-rw-r--r--    1 volkerdi      234 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi    26362 Mar 19 23:14 byacc.tgz
+-rw-r--r--    1 volkerdi     1690 Mar 19 23:14 diskd2
+-rw-r--r--    1 volkerdi   124568 Apr 21 20:06 flex.tgz
+-rw-r--r--    1 volkerdi   147366 Mar 19 23:14 include.tgz
+-rw-r--r--    1 volkerdi   134482 Mar 19 23:14 man2.tgz
+-rw-r--r--    1 volkerdi   577381 Mar 19 23:14 objc.tgz
+-rw-r--r--    1 volkerdi   288608 Mar 19 23:14 p2c.tgz
+-rw-r--r--    1 volkerdi    53279 Mar 19 23:14 pmake.tgz
+
+./d3:
+total 2596
+-rw-r--r--    1 volkerdi      130 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi    97739 Mar 19 23:14 bison.tgz
+-rw-r--r--    1 volkerdi      743 Mar 19 23:14 diskd3
+-rw-r--r--    1 volkerdi   668663 Mar 19 23:14 extralib.tgz
+-rw-r--r--    1 volkerdi   534873 Mar 19 23:14 gdb.tgz
+
+./d4:
+total 2516
+-rw-r--r--    1 volkerdi       78 Apr 16 01:01 00index.txt
+-rw-r--r--    1 volkerdi      354 Apr 15 16:39 diskd4
+-rw-r--r--    1 volkerdi  1277841 Apr 15 16:39 kernel.tgz
+
+./d5:
+total 2630
+-rw-r--r--    1 volkerdi      182 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi   471799 Apr  2 21:54 clisp.tgz
+-rw-r--r--    1 volkerdi     1081 Apr 21 20:06 diskd5
+-rw-r--r--    1 volkerdi   184404 Apr  2 21:54 f2c.tgz
+-rw-r--r--    1 volkerdi   265852 Mar 19 23:14 libc.tgz
+-rw-r--r--    1 volkerdi   196477 Mar 19 23:14 ncurses.tgz
+-rw-r--r--    1 volkerdi   169908 Apr 21 20:06 svgalib.tgz
+
+./d6:
+total 2850
+-rw-r--r--    1 volkerdi      234 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi   227569 Mar 19 23:14 binutils.tgz
+-rw-r--r--    1 volkerdi     1368 Mar 19 23:14 diskd6
+-rw-r--r--    1 volkerdi       35 Mar 19 23:14 install.end
+-rw-r--r--    1 volkerdi   299200 Mar 19 23:14 libgxx.tgz
+-rw-r--r--    1 volkerdi    53922 Mar 19 23:14 m4.tgz
+-rw-r--r--    1 volkerdi   152204 Mar 19 23:14 man3.tgz
+-rw-r--r--    1 volkerdi   493770 Mar 19 23:14 perl.tgz
+-rw-r--r--    1 volkerdi   166573 Mar 19 23:14 rcs.tgz
+
+./downgrad:
+total 12
+-rw-r--r--    1 root          697 Apr 14 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1944 Apr 10 18:00 README-4.4.4
+drwxrwxr-x    2 volkerdi      512 Apr 11 01:02 zdn1
+drwxrwxr-x    2 volkerdi      512 Apr 11 01:02 zdn2
+drwxrwxr-x    2 volkerdi      512 Apr 11 01:02 zzx1
+
+./downgrad/zdn1:
+total 2650
+-rw-r--r--    1 root          156 Apr 14 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1687 Apr 10 18:00 a_remove.tgz
+-rw-r--r--    1 volkerdi      558 Apr 10 18:00 diskzdn1
+-rw-r--r--    1 volkerdi   533650 Apr 10 18:00 gcc.tgz
+-rw-r--r--    1 volkerdi   787367 Apr 10 18:00 gxx.tgz
+-rw-r--r--    1 volkerdi      102 Apr 10 18:00 tagfile
+
+./downgrad/zdn2:
+total 1708
+-rw-r--r--    1 root          234 Apr 14 01:01 00index.txt
+-rw-r--r--    1 volkerdi   138037 Apr 10 18:00 binutils.tgz
+-rw-r--r--    1 volkerdi     1317 Apr 10 18:00 diskzdn2
+-rw-r--r--    1 volkerdi    45066 Apr 10 18:00 gmake.tgz
+-rw-r--r--    1 volkerdi   134119 Apr 10 18:00 include.tgz
+-rw-r--r--    1 volkerdi        0 Apr 10 18:00 install.end
+-rw-r--r--    1 volkerdi     5833 Apr 10 18:00 ldso.tgz
+-rw-r--r--    1 volkerdi   368206 Apr 10 18:00 libc.tgz
+-rw-r--r--    1 volkerdi   136632 Apr 10 18:01 shlibs.tgz
+
+./downgrad/zzx1:
+total 2584
+-rw-r--r--    1 root          156 Apr 14 01:01 00index.txt
+-rw-r--r--    1 volkerdi      299 Apr 10 18:01 diskzzx1
+-rw-r--r--    1 volkerdi   785342 Apr 10 18:01 extralib.tgz
+-rw-r--r--    1 volkerdi        4 Apr 10 18:01 install.end
+-rw-r--r--    1 volkerdi   513683 Apr 10 18:01 objc.tgz
+-rw-r--r--    1 volkerdi       24 Apr 10 18:01 tagfile
+
+./e1:
+total 2254
+-rw-r--r--    1 volkerdi      182 Apr 16 01:01 00index.txt
+-rw-r--r--    1 volkerdi      363 Mar 19 23:14 diske1
+-rw-r--r--    1 volkerdi  1137203 Mar 19 23:14 emacsbin.tgz
+-rw-r--r--    1 volkerdi     1424 Mar 19 23:14 maketag
+-rw-r--r--    1 volkerdi      111 Apr 15 16:39 tagfile
+-rw-r--r--    1 volkerdi      111 Apr 15 16:39 tagfile.org
+-rw-r--r--    1 volkerdi      111 Apr 15 16:39 tagfile.pat
+
+./e2:
+total 1556
+-rw-r--r--    1 volkerdi       78 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      168 Mar 19 23:14 diske2
+-rw-r--r--    1 volkerdi   782567 Mar 19 23:14 emacmisc.tgz
+
+./e3:
+total 2596
+-rw-r--r--    1 volkerdi       78 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      279 Mar 19 23:14 diske3
+-rw-r--r--    1 volkerdi  1311998 Mar 19 23:15 elispc.tgz
+
+./e4:
+total 2116
+-rw-r--r--    1 volkerdi       78 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      158 Mar 19 23:15 diske4
+-rw-r--r--    1 volkerdi  1071605 Mar 19 23:15 elisp1.tgz
+
+./e5:
+total 2598
+-rw-r--r--    1 volkerdi      130 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      683 Mar 19 23:15 diske5
+-rw-r--r--    1 volkerdi   791112 Mar 19 23:15 elisp2.tgz
+-rw-r--r--    1 volkerdi   510044 Mar 19 23:15 emac_nox.tgz
+-rw-r--r--    1 volkerdi       43 Mar 19 23:15 install.end
+
+./f1:
+total 2596
+-rw-r--r--    1 volkerdi      286 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      583 Mar 19 23:15 diskf1
+-rw-r--r--    1 volkerdi       36 Mar 19 23:15 install.end
+-rw-r--r--    1 volkerdi     3328 Mar 19 23:24 install.txt
+-rw-r--r--    1 volkerdi      691 Mar 19 23:15 maketag
+-rw-r--r--    1 volkerdi  1290326 Mar 19 23:15 manyfaqs.tgz
+-rw-r--r--    1 volkerdi     1418 Mar 19 23:24 read5_25.txt
+-rw-r--r--    1 volkerdi     9269 Mar 19 23:22 slakware.faq
+-rw-r--r--    1 volkerdi     1676 Mar 19 23:15 tagfile
+-rw-r--r--    1 volkerdi     1676 Mar 19 23:15 tagfile.org
+-rw-r--r--    1 volkerdi     1676 Mar 19 23:15 tagfile.pat
+
+./i1:
+total 1978
+-rw-r--r--    1 root          130 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      187 Apr 21 20:06 diski1
+-rw-r--r--    1 volkerdi   992010 Apr 21 20:06 info1.tgz
+-rw-r--r--    1 volkerdi      844 Apr 21 20:07 maketag
+-rw-r--r--    1 volkerdi       22 Apr 21 20:07 tagfile
+-rw-r--r--    1 volkerdi       22 Apr 21 20:07 tagfile.org
+
+./i2:
+total 2038
+-rw-r--r--    1 root           78 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      187 Apr 21 20:07 diski2
+-rw-r--r--    1 volkerdi  1031202 Apr 21 20:07 info2.tgz
+-rw-r--r--    1 volkerdi       13 Apr 21 20:07 install.end
+
+./install:
+total 134
+-rw-r--r--    1 volkerdi     2255 Apr 22 01:01 00index.txt
+drwxrwxr-x    4 volkerdi      512 Mar 30 02:45 1_2meg
+drwxrwxr-x    4 volkerdi      512 Mar 30 02:40 1_44meg
+-rw-r--r--    1 volkerdi     2680 Apr  3 18:15 BOOTDISK.FAQ
+-rw-r--r--    1 volkerdi    39910 Mar 19 23:15 GZIP.EXE
+-rw-r--r--    1 volkerdi    13052 Mar 19 23:15 RAWRITE.EXE
+-rw-r--r--    1 volkerdi      531 Mar 19 23:16 README
+drwxr-xr-x    2 volkerdi      512 Apr 20 01:01 fdomain
+drwxr-xr-x    2 volkerdi      512 Apr  4 01:01 in2000
+drwxrwxr-x    2 volkerdi      512 Mar 30 02:51 kernel_info
+drwxrwxr-x    2 volkerdi      512 Apr  3 21:19 scripts
+drwxrwxr-x    2 volkerdi      512 Mar 31 14:54 tape
+drwxrwxr-x    2 volkerdi      512 Mar 31 14:53 umsdos
+
+./install/1_2meg:
+total 6
+-rw-r--r--    1 volkerdi      440 Apr 22 01:01 00index.txt
+drwxrwxr-x    2 volkerdi      512 Mar 31 14:53 bootdisks
+drwxrwxr-x    2 volkerdi      512 Mar 31 14:53 rootdisks
+
+./install/1_2meg/bootdisks:
+total 7132
+-rw-r--r--    1 volkerdi      234 Apr  2 01:01 00index.txt
+-rw-r--r--    1 volkerdi     4098 Mar 19 23:16 README
+-rw-r--r--    1 volkerdi   462811 Mar 19 23:16 bare.gz
+-rw-r--r--    1 volkerdi   491565 Mar 19 23:16 cd.gz
+-rw-r--r--    1 volkerdi   546828 Mar 19 23:16 cdscsi.gz
+-rw-r--r--    1 volkerdi   492693 Mar 19 23:16 net.gz
+-rw-r--r--    1 volkerdi   527492 Mar 19 23:16 scsi.gz
+-rw-r--r--    1 volkerdi   557077 Mar 19 23:16 scsinet.gz
+-rw-r--r--    1 volkerdi   467703 Mar 19 23:16 xt.gz
+
+./install/1_2meg/rootdisks:
+total 1846
+-rw-r--r--    1 volkerdi      104 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1110 Mar 19 23:17 README
+-rw-r--r--    1 volkerdi   442098 Apr 21 20:07 colrlite.gz
+-rw-r--r--    1 volkerdi   479943 Apr 21 20:07 tty12.gz
+
+./install/1_44meg:
+total 6
+-rw-r--r--    1 volkerdi      440 Apr 22 01:01 00index.txt
+drwxrwxr-x    2 volkerdi      512 Mar 31 14:53 bootdisks
+drwxrwxr-x    2 volkerdi      512 Mar 31 14:53 rootdisks
+
+./install/1_44meg/bootdisks:
+total 7132
+-rw-r--r--    1 volkerdi      234 Apr  2 01:01 00index.txt
+-rw-r--r--    1 volkerdi     4098 Mar 19 23:16 README
+-rw-r--r--    1 volkerdi   463194 Mar 19 23:16 bare.gz
+-rw-r--r--    1 volkerdi   492403 Mar 19 23:16 cd.gz
+-rw-r--r--    1 volkerdi   547351 Mar 19 23:16 cdscsi.gz
+-rw-r--r--    1 volkerdi   493463 Mar 19 23:15 net.gz
+-rw-r--r--    1 volkerdi   527924 Mar 19 23:15 scsi.gz
+-rw-r--r--    1 volkerdi   557905 Mar 19 23:15 scsinet.gz
+-rw-r--r--    1 volkerdi   468154 Mar 19 23:15 xt.gz
+
+./install/1_44meg/rootdisks:
+total 2180
+-rw-r--r--    1 volkerdi      104 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1006 Mar 19 23:16 README
+-rw-r--r--    1 volkerdi   542310 Apr 21 20:07 color144.gz
+-rw-r--r--    1 volkerdi   547303 Apr 21 20:07 tty144.gz
+
+./install/fdomain:
+total 2212
+-rw-r--r--    1 root          104 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      963 Apr 19 18:51 README
+-rw-r--r--    1 volkerdi   551572 Apr 19 18:52 fd_12.gz
+-rw-r--r--    1 volkerdi   552029 Apr 19 18:54 fd_144.gz
+
+./install/in2000:
+total 2200
+-rw-r--r--    1 root          130 Apr  6 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1186 Apr  3 18:07 in2000.README
+-rw-r--r--    1 volkerdi     8230 Apr  3 18:07 in2000.tar.gz
+-rw-r--r--    1 volkerdi   542156 Apr  3 18:08 in2K_12.gz
+-rw-r--r--    1 volkerdi   542790 Apr  4 18:26 in2K_144.gz
+
+./install/kernel_info:
+total 956
+-rw-r--r--    1 volkerdi      390 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi     3118 Mar 19 23:16 BARE.LOG
+-rw-r--r--    1 volkerdi     3093 Mar 19 23:16 CD.LOG
+-rw-r--r--    1 volkerdi     3966 Mar 19 23:16 CDSCSI.LOG
+-rw-r--r--    1 volkerdi     3110 Mar 19 23:16 NET.LOG
+-rw-r--r--    1 volkerdi     3976 Mar 19 23:16 SCSI.LOG
+-rw-r--r--    1 volkerdi     3975 Mar 19 23:16 SCSINET.LOG
+-rw-r--r--    1 volkerdi     3111 Mar 19 23:16 XT.LOG
+-rw-r--r--    1 volkerdi    56782 Mar 19 23:16 zSystem.bare
+-rw-r--r--    1 volkerdi    62774 Mar 19 23:16 zSystem.cd
+-rw-r--r--    1 volkerdi    74571 Mar 19 23:16 zSystem.cdscsi
+-rw-r--r--    1 volkerdi    61275 Mar 19 23:16 zSystem.net
+-rw-r--r--    1 volkerdi    74075 Mar 19 23:16 zSystem.scnet
+-rw-r--r--    1 volkerdi    69582 Mar 19 23:16 zSystem.scsi
+-rw-r--r--    1 volkerdi    57932 Mar 19 23:16 zSystem.xt
+
+./install/scripts:
+total 32
+-rw-r--r--    1 volkerdi       78 Apr  5 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1885 Mar 25 15:57 getslack
+-rw-r--r--    1 volkerdi    12695 Apr  4 00:10 makeflop
+
+./install/tape:
+total 1126
+-rw-r--r--    1 volkerdi       97 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1809 Apr  4 16:26 README.tapeinstall
+-rw-r--r--    1 volkerdi   563228 Apr 21 20:07 tape144.gz
+
+./install/umsdos:
+total 3206
+-rw-r--r--    1 volkerdi      130 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1720 Mar 19 23:17 README.UMS
+-rw-r--r--    1 volkerdi   538630 Apr 21 20:07 boot12.gz
+-rw-r--r--    1 volkerdi   542331 Apr  2 21:55 boot144.gz
+-rw-r--r--    1 volkerdi   523907 Apr 21 20:07 root144.gz
+
+./iv1:
+total 2548
+-rw-r--r--    1 volkerdi      260 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      954 Mar 19 23:16 diskiv1
+-rw-r--r--    1 volkerdi   261769 Mar 19 23:16 doc.tgz
+-rw-r--r--    1 volkerdi   413527 Mar 19 23:16 idraw.tgz
+-rw-r--r--    1 volkerdi   444393 Mar 19 23:16 iv_docs.tgz
+-rw-r--r--    1 volkerdi   127786 Mar 19 23:16 iv_misc.tgz
+-rw-r--r--    1 volkerdi     1184 Mar 19 23:16 maketag
+-rw-r--r--    1 volkerdi     1902 Mar 19 23:16 tagfile
+-rw-r--r--    1 volkerdi     1902 Mar 19 23:16 tagfile.org
+-rw-r--r--    1 volkerdi     1902 Mar 19 23:16 tagfile.pat
+
+./iv2:
+total 2084
+-rw-r--r--    1 volkerdi      104 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      765 Mar 19 23:16 diskiv2
+-rw-r--r--    1 volkerdi   869338 Mar 19 23:17 iv_bin.tgz
+-rw-r--r--    1 volkerdi   170995 Mar 19 23:17 iv_man.tgz
+
+./iv3:
+total 2052
+-rw-r--r--    1 volkerdi       78 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      321 Mar 19 23:17 diskiv3
+-rw-r--r--    1 volkerdi  1034574 Mar 19 23:17 iv_libs.tgz
+
+./iv4:
+total 1606
+-rw-r--r--    1 volkerdi      104 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      355 Mar 19 23:17 diskiv4
+-rw-r--r--    1 volkerdi       14 Mar 19 23:17 install.end
+-rw-r--r--    1 volkerdi   804248 Mar 19 23:17 ivdevbin.tgz
+
+./n1:
+total 2450
+-rw-r--r--    1 volkerdi      338 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi    37639 Mar 19 23:17 deliver.tgz
+-rw-r--r--    1 volkerdi    32003 Mar 19 23:17 dip.tgz
+-rw-r--r--    1 volkerdi     2548 Apr  2 21:54 diskn1
+-rw-r--r--    1 volkerdi    44821 Apr  2 21:54 mailx.tgz
+-rw-r--r--    1 volkerdi     1700 Mar 19 23:17 maketag
+-rw-r--r--    1 volkerdi     5682 Apr 21 20:07 netcfg.tgz
+-rw-r--r--    1 volkerdi     1800 Apr 15 16:39 tagfile
+-rw-r--r--    1 volkerdi     1800 Apr 15 16:39 tagfile.org
+-rw-r--r--    1 volkerdi      169 Mar 19 23:17 tagfile.pat
+-rw-r--r--    1 volkerdi   694405 Apr 21 20:07 tcpip.tgz
+-rw-r--r--    1 volkerdi    30937 Mar 19 23:17 tracrout.tgz
+-rw-r--r--    1 volkerdi   372795 Apr  2 21:54 uucp.tgz
+
+./n2:
+total 2116
+-rw-r--r--    1 volkerdi      130 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      682 Apr 21 20:07 diskn2
+-rw-r--r--    1 volkerdi   239285 Apr  2 21:55 elm.tgz
+-rw-r--r--    1 volkerdi   386749 Apr 21 20:07 pine.tgz
+-rw-r--r--    1 volkerdi   412125 Mar 19 23:17 smail.tgz
+
+./n3:
+total 2936
+-rw-r--r--    1 volkerdi      234 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi   151407 Apr 21 20:07 cnews.tgz
+-rw-r--r--    1 volkerdi     1731 Apr 21 20:07 diskn3
+-rw-r--r--    1 volkerdi   559104 Apr  2 21:54 inn_pkg.tgz
+-rw-r--r--    1 volkerdi       40 Mar 19 23:17 install.end
+-rw-r--r--    1 volkerdi   325427 Mar 19 23:17 nn.tgz
+-rw-r--r--    1 volkerdi   108796 Apr 22 16:37 ppp.tgz
+-rw-r--r--    1 volkerdi   118583 Mar 19 23:17 tin.tgz
+-rw-r--r--    1 volkerdi   163759 Apr 21 20:07 trn.tgz
+
+./oop1:
+total 766
+-rw-r--r--    1 volkerdi      234 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      238 Mar 19 23:17 diskoop1
+-rw-r--r--    1 volkerdi       33 Mar 19 23:17 install.end
+-rw-r--r--    1 volkerdi      859 Mar 19 23:17 maketag
+-rw-r--r--    1 volkerdi   252544 Mar 19 23:17 smaltalk.tgz
+-rw-r--r--    1 volkerdi   113323 Mar 19 23:17 stix.tgz
+-rw-r--r--    1 volkerdi      120 Mar 19 23:17 tagfile
+-rw-r--r--    1 volkerdi       96 Mar 19 23:17 tagfile.org
+-rw-r--r--    1 volkerdi      120 Mar 19 23:17 tagfile.pat
+
+./q1:
+total 2584
+-rw-r--r--    1 volkerdi      354 Apr 22 16:36 diskq1
+-rw-r--r--    1 volkerdi  1307544 Apr 22 16:37 kernel.tgz
+-rw-r--r--    1 volkerdi     1335 Apr 22 16:36 maketag
+-rw-r--r--    1 volkerdi       62 Apr 22 16:37 tagfile
+
+./q2:
+total 2342
+-rw-r--r--    1 volkerdi     3210 Apr 22 16:37 cdkern.log
+-rw-r--r--    1 volkerdi   348725 Apr 22 16:37 cdkern.tgz
+-rw-r--r--    1 volkerdi     1414 Apr 22 16:37 diskq2
+-rw-r--r--    1 volkerdi    84776 Apr 22 16:37 ftape.tgz
+-rw-r--r--    1 volkerdi     3221 Apr 22 16:37 idekern.log
+-rw-r--r--    1 volkerdi   326677 Apr 22 16:37 idekern.tgz
+-rw-r--r--    1 volkerdi       24 Apr 22 16:37 install.end
+-rw-r--r--    1 volkerdi     4229 Apr 22 16:37 scsikern.log
+-rw-r--r--    1 volkerdi   385136 Apr 22 16:37 scsikern.tgz
+
+./readmes:
+total 64
+-rw-r--r--    1 volkerdi      225 Apr  2 01:01 00index.txt
+-rw-r--r--    1 volkerdi      531 Mar 19 23:15 BOOTDISK_INFO
+-rw-r--r--    1 volkerdi    21389 Mar 28 23:22 CHANGES
+-rw-r--r--    1 volkerdi     3328 Mar 19 23:13 INSTALL
+-rw-r--r--    1 volkerdi     2874 Mar 23 14:57 MIRROR_SITES
+lrwxrwxr-x    1 volkerdi       15 Mar 19 23:18 README.SLACKWARE -> ../README.1.2.0
+lrwxrwxr-x    1 volkerdi       22 Mar 19 23:18 README_5_25_install -> ../README_5_25_install
+
+./t1:
+total 1922
+-rw-r--r--    1 volkerdi      234 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      124 Mar 19 23:17 diskt1
+-rw-r--r--    1 volkerdi     1144 Mar 19 23:17 maketag
+-rw-r--r--    1 volkerdi     7153 Mar 19 23:17 manifest.gz
+-rw-r--r--    1 volkerdi     2738 Mar 19 23:17 readme.tex
+-rw-r--r--    1 volkerdi      129 Mar 19 23:17 tagfile
+-rw-r--r--    1 volkerdi      129 Mar 19 23:17 tagfile.org
+-rw-r--r--    1 volkerdi      129 Mar 19 23:17 tagfile.pat
+-rw-r--r--    1 volkerdi   954152 Mar 19 23:17 texbin.tgz
+
+./t2:
+total 2100
+-rw-r--r--    1 volkerdi       78 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      154 Mar 19 23:17 diskt2
+-rw-r--r--    1 volkerdi  1061354 Mar 19 23:17 texlibmc.tgz
+
+./t3:
+total 2402
+-rw-r--r--    1 volkerdi      130 Mar 22 01:00 00index.txt
+-rw-r--r--    1 volkerdi      371 Mar 19 23:17 diskt3
+-rw-r--r--    1 volkerdi   692601 Mar 19 23:17 texcmpk.tgz
+-rw-r--r--    1 volkerdi    80611 Mar 19 23:17 texdoc.tgz
+-rw-r--r--    1 volkerdi   432212 Mar 19 23:18 texnfss2.tgz
+
+./t4:
+total 2276
+-rw-r--r--    1 volkerdi      130 Mar 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      395 Mar 19 23:18 diskt4
+-rw-r--r--    1 volkerdi   165314 Mar 19 23:18 texcm.tgz
+-rw-r--r--    1 volkerdi   441104 Mar 19 23:18 texlibib.tgz
+-rw-r--r--    1 volkerdi   519891 Mar 19 23:18 texlibms.tgz
+
+./t5:
+total 2390
+-rw-r--r--    1 volkerdi      130 Mar 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      237 Mar 19 23:18 diskt5
+-rw-r--r--    1 volkerdi        4 Mar 19 23:18 install.end
+-rw-r--r--    1 volkerdi   397715 Mar 19 23:18 texams.tgz
+-rw-r--r--    1 volkerdi   795531 Mar 19 23:18 texfont.tgz
+
+./tcl1:
+total 2116
+-rw-r--r--    1 volkerdi      208 Mar 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      547 Mar 19 23:18 disktcl1
+-rw-r--r--    1 volkerdi     1072 Mar 19 23:18 maketag
+-rw-r--r--    1 volkerdi     1868 Mar 19 23:18 tagfile
+-rw-r--r--    1 volkerdi     1868 Mar 19 23:18 tagfile.org
+-rw-r--r--    1 volkerdi     1868 Mar 19 23:18 tagfile.pat
+-rw-r--r--    1 volkerdi   318529 Mar 19 23:18 tcl.tgz
+-rw-r--r--    1 volkerdi   735048 Mar 19 23:18 tk.tgz
+
+./tcl2:
+total 1736
+-rw-r--r--    1 volkerdi      156 Mar 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi   299371 Mar 19 23:18 blt.tgz
+-rw-r--r--    1 volkerdi     1417 Mar 19 23:18 disktcl2
+-rw-r--r--    1 volkerdi       13 Mar 19 23:18 install.end
+-rw-r--r--    1 volkerdi   137365 Mar 19 23:18 itcl.tgz
+-rw-r--r--    1 volkerdi   410307 Mar 19 23:18 tclx.tgz
+
+./u1:
+total 1496
+-rw-r--r--    1 root          260 Apr  5 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1047 Apr  2 21:54 disku1
+-rw-r--r--    1 volkerdi       65 Apr  2 21:54 tagfile
+-rw-r--r--    1 volkerdi     4191 Apr  2 21:54 ums_boot.log
+-rw-r--r--    1 volkerdi     3319 Apr  2 21:54 ums_ide.log
+-rw-r--r--    1 volkerdi   287130 Apr  2 21:54 ums_ide.tgz
+-rw-r--r--    1 volkerdi     4177 Apr  2 21:54 ums_scsi.log
+-rw-r--r--    1 volkerdi   351425 Apr  2 21:54 ums_scsi.tgz
+-rw-r--r--    1 volkerdi     3129 Apr  2 21:54 umsfix.tgz
+-rw-r--r--    1 volkerdi    79386 Apr  2 21:54 umsprogs.tgz
+
+./u2:
+total 2598
+-rw-r--r--    1 root          104 Apr  5 01:01 00index.txt
+-rw-r--r--    1 volkerdi      325 Apr  2 21:54 disku2
+-rw-r--r--    1 volkerdi       16 Apr  2 21:54 install.end
+-rw-r--r--    1 volkerdi  1315358 Apr  2 21:54 kernel.tgz
+
+./x1:
+total 2718
+-rw-r--r--    1 volkerdi      286 Apr 16 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1385 Mar 19 23:18 diskx1
+-rw-r--r--    1 volkerdi     2273 Mar 19 23:18 maketag
+-rw-r--r--    1 volkerdi     8896 Mar 19 23:18 readme
+-rw-r--r--    1 volkerdi     2797 Apr 15 16:39 tagfile
+-rw-r--r--    1 volkerdi     2797 Apr 15 16:39 tagfile.org
+-rw-r--r--    1 volkerdi     1838 Apr 15 16:39 tagfile.pat
+-rw-r--r--    1 volkerdi   381818 Mar 19 23:18 x_8514.tgz
+-rw-r--r--    1 volkerdi   396811 Apr  5 12:05 x_mach32.tgz
+-rw-r--r--    1 volkerdi   387222 Mar 19 23:18 x_mach8.tgz
+-rw-r--r--    1 volkerdi   147882 Mar 19 23:18 xf_doc.tgz
+
+./x2:
+total 2764
+-rw-r--r--    1 volkerdi      182 Apr  3 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1566 Mar 19 23:18 diskx2
+-rw-r--r--    1 volkerdi   340103 Mar 19 23:18 x_mono.tgz
+-rw-r--r--    1 volkerdi   424494 Mar 19 23:18 x_s3.tgz
+-rw-r--r--    1 volkerdi   413243 Mar 19 23:19 x_svga.tgz
+-rw-r--r--    1 volkerdi   110178 Apr  2 21:54 xf_cfg.tgz
+-rw-r--r--    1 volkerdi    76705 Mar 19 23:19 xpm.tgz
+
+./x3:
+total 2372
+-rw-r--r--    1 volkerdi      130 Mar 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      784 Mar 19 23:19 diskx3
+-rw-r--r--    1 volkerdi   358260 Mar 19 23:19 x_vga16.tgz
+-rw-r--r--    1 volkerdi   537404 Mar 19 23:19 xf_lib.tgz
+-rw-r--r--    1 volkerdi   279292 Mar 19 23:19 xman1.tgz
+
+./x4:
+total 2676
+-rw-r--r--    1 volkerdi      104 Apr  3 01:01 00index.txt
+-rw-r--r--    1 volkerdi      378 Apr  2 21:54 diskx4
+-rw-r--r--    1 volkerdi   855161 Apr  2 21:54 xf_bin.tgz
+-rw-r--r--    1 volkerdi   488041 Mar 19 23:19 xfnt.tgz
+
+./x5:
+total 2708
+-rw-r--r--    1 volkerdi       78 Mar 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      252 Mar 19 23:19 diskx5
+-rw-r--r--    1 volkerdi  1373604 Mar 19 23:19 xfnt75.tgz
+
+./x6:
+total 2556
+-rw-r--r--    1 volkerdi      156 Mar 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1091 Mar 19 23:19 diskx6
+-rw-r--r--    1 volkerdi  1227792 Mar 19 23:19 fnt100_1.tgz
+-rw-r--r--    1 volkerdi    12672 Mar 19 23:19 fvwmicns.tgz
+-rw-r--r--    1 volkerdi    25971 Mar 19 23:19 xconfig.tgz
+-rw-r--r--    1 volkerdi    28140 Mar 19 23:19 xlock.tgz
+
+./x7:
+total 2788
+-rw-r--r--    1 volkerdi      130 Mar 25 01:01 00index.txt
+-rw-r--r--    1 volkerdi      535 Mar 19 23:19 diskx7
+-rw-r--r--    1 volkerdi   447578 Mar 19 23:19 fnt100_2.tgz
+-rw-r--r--    1 volkerdi   580550 Mar 19 23:19 fntbig1.tgz
+-rw-r--r--    1 volkerdi   366720 Mar 24 22:34 speedo.tgz
+
+./x8:
+total 2710
+-rw-r--r--    1 volkerdi      130 Mar 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      369 Mar 19 23:19 diskx8
+-rw-r--r--    1 volkerdi  1183937 Mar 19 23:19 fntbig2.tgz
+-rw-r--r--    1 volkerdi       27 Mar 19 23:19 install.end
+-rw-r--r--    1 volkerdi   177890 Mar 19 23:19 xinclude.tgz
+
+./xap1:
+total 2090
+-rw-r--r--    1 volkerdi      338 Apr 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi     1835 Apr 21 20:07 diskxap1
+-rw-r--r--    1 volkerdi   198541 Mar 19 23:19 gs_x11.tgz
+-rw-r--r--    1 volkerdi   352129 Mar 19 23:19 libgr13.tgz
+-rw-r--r--    1 volkerdi     1707 Mar 19 23:19 maketag
+-rw-r--r--    1 volkerdi   121387 Mar 19 23:19 seyon.tgz
+-rw-r--r--    1 volkerdi     1102 Mar 19 23:19 tagfile
+-rw-r--r--    1 volkerdi     1102 Mar 19 23:19 tagfile.org
+-rw-r--r--    1 volkerdi      183 Apr 21 20:07 tagfile.pat
+-rw-r--r--    1 volkerdi    14891 Mar 19 23:19 vgaset.tgz
+-rw-r--r--    1 volkerdi    53520 Mar 19 23:19 workman.tgz
+-rw-r--r--    1 volkerdi    64101 Mar 19 23:19 xfileman.tgz
+-rw-r--r--    1 volkerdi   208577 Mar 19 23:19 xv300.tgz
+
+./xap2:
+total 2124
+-rw-r--r--    1 volkerdi      286 Apr  1 01:01 00index.txt
+-rw-r--r--    1 volkerdi     2390 Mar 19 23:19 diskxap2
+-rw-r--r--    1 volkerdi   328271 Mar 19 23:20 gchess.tgz
+-rw-r--r--    1 volkerdi    56401 Mar 19 23:20 ghstview.tgz
+-rw-r--r--    1 volkerdi       33 Mar 19 23:20 install.end
+-rw-r--r--    1 volkerdi   109437 Mar 19 23:20 x3270.tgz
+-rw-r--r--    1 volkerdi    82327 Mar 19 23:20 xfm12.tgz
+-rw-r--r--    1 volkerdi   159619 Mar 19 23:20 xgames.tgz
+-rw-r--r--    1 volkerdi    44633 Mar 20 02:44 xgrabsc.tgz
+-rw-r--r--    1 volkerdi   207619 Mar 19 23:20 xspread.tgz
+-rw-r--r--    1 volkerdi    36760 Mar 31 16:09 xxgdb.tgz
+
+./xd1:
+total 2606
+-rw-r--r--    1 volkerdi      208 Mar 25 01:01 00index.txt
+-rw-r--r--    1 volkerdi      820 Mar 19 23:20 diskxd1
+-rw-r--r--    1 volkerdi     1143 Mar 24 22:34 maketag
+-rw-r--r--    1 volkerdi    65882 Mar 19 23:20 pex5inc.tgz
+-rw-r--r--    1 volkerdi       74 Mar 24 22:34 tagfile
+-rw-r--r--    1 volkerdi       74 Mar 24 22:34 tagfile.org
+-rw-r--r--    1 volkerdi   859093 Mar 24 22:34 xf_kit.tgz
+-rw-r--r--    1 volkerdi   382937 Mar 19 23:20 xman3.tgz
+
+./xd2:
+total 2804
+-rw-r--r--    1 volkerdi      104 Mar 26 01:00 00index.txt
+-rw-r--r--    1 volkerdi      521 Mar 19 23:20 diskxd2
+-rw-r--r--    1 volkerdi   947255 Mar 19 23:20 xf_pex.tgz
+-rw-r--r--    1 volkerdi   465380 Mar 19 23:20 xstatic.tgz
+
+./xd3:
+total 1478
+-rw-r--r--    1 volkerdi      104 Mar 27 01:00 00index.txt
+-rw-r--r--    1 volkerdi      554 Mar 24 22:34 diskxd3
+-rw-r--r--    1 volkerdi       10 Mar 24 22:34 install.end
+-rw-r--r--    1 volkerdi   744988 Mar 24 22:34 xf_kit2.tgz
+
+./xv1:
+total 2894
+-rw-r--r--    1 volkerdi      234 Mar 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi      555 Mar 19 23:20 diskxv1
+-rw-r--r--    1 volkerdi     1285 Mar 19 23:20 maketag
+-rw-r--r--    1 volkerdi      586 Mar 19 23:20 tagfile
+-rw-r--r--    1 volkerdi      586 Mar 19 23:20 tagfile.org
+-rw-r--r--    1 volkerdi       90 Mar 19 23:20 tagfile.pat
+-rw-r--r--    1 volkerdi   127115 Mar 19 23:20 xv32_sa.tgz
+-rw-r--r--    1 volkerdi   854933 Mar 19 23:20 xv32_so.tgz
+-rw-r--r--    1 volkerdi   454131 Mar 19 23:20 xvol32.tgz
+
+./xv2:
+total 2882
+-rw-r--r--    1 volkerdi      182 Mar 27 01:00 00index.txt
+-rw-r--r--    1 volkerdi      860 Mar 19 23:20 diskxv2
+-rw-r--r--    1 volkerdi        9 Mar 19 23:20 install.end
+-rw-r--r--    1 volkerdi   848516 Mar 19 23:20 xv32_a.tgz
+-rw-r--r--    1 volkerdi   232992 Mar 19 23:20 xv32exmp.tgz
+-rw-r--r--    1 volkerdi   346302 Mar 19 23:20 xvinc32.tgz
+-rw-r--r--    1 volkerdi     5620 Mar 26 15:45 xvmenus.tgz
+
+./y1:
+total 1958
+-rw-r--r--    1 volkerdi      234 Mar 22 01:01 00index.txt
+-rw-r--r--    1 volkerdi   972542 Mar 19 23:20 bsdgames.tgz
+-rw-r--r--    1 volkerdi      728 Mar 19 23:20 disky1
+-rw-r--r--    1 volkerdi       23 Mar 19 23:20 install.end
+-rw-r--r--    1 volkerdi      852 Mar 19 23:20 maketag
+-rw-r--r--    1 volkerdi     1673 Mar 19 23:20 tagfile
+-rw-r--r--    1 volkerdi     1673 Mar 19 23:20 tagfile.org
+-rw-r--r--    1 volkerdi     1673 Mar 19 23:20 tagfile.pat
+-rw-r--r--    1 volkerdi     8829 Mar 19 23:20 tetris.tgz
